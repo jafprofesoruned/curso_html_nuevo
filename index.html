@@ -3,13 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Documento</title>
+  <title>Práctica de HTML</title>
 </head>
 <body>
-  <h1>Hola, Mundo!</h1>
-  <p>Este es un documento HTML de ejemplo.</p>
-  <p>¡Bienvenido a la programación web!</p>
-  <p>Esto lo he escrito en GitHub</p>
-  <!-- Comentario: Este es un comentario en HTML -->
+  <header>
+    <h1>Bienvenido a mi página web</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>Esta es la sección de inicio de mi página web.</p>
+      <figure>
+        <img src="img/img1.jpg" width="300px" alt="Imagen de ejemplo">
+        <figcaption>Figura 1: Imagen de ejemplo</figcaption>
+    </section>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <figure>
+        <img src="img/img2.jpg" width="300px" alt="Foto de Juan">
+        <figcaption>Figura 2: Foto de Juan</figcaption>
+      <p>Hola, me llamo Juan y me gusta la programación web.</p>
+    </section>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <figure>
+        <img src="img/img3.jpg" width="300px" alt="Icono de contacto">
+        <figcaption>Figura 3: Icono de contacto</figcaption>
+      <p>Puedes contactarme a través de mi correo electrónico: juan@mio.com</p>
+    </section>
+  </main>
+  <aside>
+    <h3>Enlaces útiles</h3>
+    <ul>
+      <li><a href="https://www.w3schools.com">W3Schools</a></li>
+      <li><a href="https://developer.mozilla.org">MDN Web Docs</a></li>
+    </ul>
+  </aside>
+  <footer>
+    <p>&copy; 2025 Mi Página Web</p>
+  </footer>
 </body>
 </html>
